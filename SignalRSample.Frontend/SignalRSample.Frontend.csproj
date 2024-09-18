@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Blazored.LocalStorage" Version="4.5.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.3"/>
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.3" PrivateAssets="all"/>
+        <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="8.0.8" />
+        <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0" />
+        <PackageReference Include="MudBlazor" Version="7.8.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="MyApplication\MyApplication.Client\obj\MyApplication.Client.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="MyApplication\MyApplication.Client\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="MyApplication\MyApplication.Client\wwwroot\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="MyApplication\MyApplication.Client\wwwroot\appsettings.json" />
+      <_ContentIncludedByDefault Remove="MyApplication\MyApplication\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="MyApplication\MyApplication\appsettings.json" />
+      <_ContentIncludedByDefault Remove="MyApplication\MyApplication\obj\MyApplication.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="MyApplication\MyApplication\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="MyApplication\MyApplication\Properties\launchSettings.json" />
+      <_ContentIncludedByDefault Remove="MyApplication\MyApplication.Client\Layout\MainLayout.razor" />
+      <_ContentIncludedByDefault Remove="MyApplication\MyApplication.Client\Layout\NavMenu.razor" />
+      <_ContentIncludedByDefault Remove="MyApplication\MyApplication.Client\Pages\Counter.razor" />
+      <_ContentIncludedByDefault Remove="MyApplication\MyApplication.Client\Pages\Home.razor" />
+      <_ContentIncludedByDefault Remove="MyApplication\MyApplication.Client\Pages\Weather.razor" />
+      <_ContentIncludedByDefault Remove="MyApplication\MyApplication.Client\Routes.razor" />
+      <_ContentIncludedByDefault Remove="MyApplication\MyApplication.Client\_Imports.razor" />
+      <_ContentIncludedByDefault Remove="MyApplication\MyApplication\Components\App.razor" />
+      <_ContentIncludedByDefault Remove="MyApplication\MyApplication\Components\Pages\Error.razor" />
+      <_ContentIncludedByDefault Remove="MyApplication\MyApplication\Components\_Imports.razor" />
+    </ItemGroup>
+
+</Project>

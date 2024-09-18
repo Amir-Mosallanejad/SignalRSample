@@ -1,0 +1,24 @@
+﻿@using SignalRSample.Frontend.Consts
+@attribute [Route(Routes.Chatroom)]
+
+<ul>
+    @foreach (var item in _messages)
+    {
+        <li>
+            @item
+        </li>
+    }
+
+</ul>
+<hr/>
+
+<text>@connectionId</text>
+
+<MudTextField Class="justify-center"
+    Adornment="Adornment.End"
+    AdornmentIcon="@Icons.Material.Filled.Send"
+    OnAdornmentClick="@SendMessage"
+    @bind-Value="@messageInput" Label="Outlined"
+    Variant="Variant.Outlined"
+    FullWidth="true">
+</MudTextField>

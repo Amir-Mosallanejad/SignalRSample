@@ -1,0 +1,10 @@
+﻿@using SignalRSample.Frontend.Consts
+@attribute [Route(Routes.Login)]
+
+<MudTextField Class="justify-center"
+              Adornment="Adornment.End"
+              AdornmentIcon="@Icons.Material.Filled.Login"
+              OnAdornmentClick="@Login"
+              @bind-Value="@userName" Label="Outlined"
+              Variant="Variant.Outlined"
+              FullWidth="true"/>

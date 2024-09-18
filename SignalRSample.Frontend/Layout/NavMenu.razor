@@ -1,0 +1,17 @@
+﻿@using SignalRSample.Frontend.Consts
+<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">SignalRSample.Frontend</a>
+        <button title="Navigation menu" class="navbar-toggler" href="@Routes.Home">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</div>
+
+<MudPaper Height="1000px" Width="250px" Elevation="0">
+    <MudNavMenu Rounded="true" Margin="Margin.Normal" Color="Color.Primary" Class="pa-2">
+        <MudNavLink Href="@Routes.Home" Icon="@Icons.Material.Filled.Home">Home</MudNavLink>
+        <MudNavLink Href="@Routes.Chatroom" Icon="@Icons.Material.Filled.Chat">Chat Room</MudNavLink>
+        <MudNavLink Href="@Routes.Login" Icon="@Icons.Material.Filled.Login">Login</MudNavLink>
+    </MudNavMenu>
+</MudPaper>
